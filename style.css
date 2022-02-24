@@ -239,7 +239,7 @@ padding-left:20px;
   .KidsBike,
 .BmxBike,
 .RoadBike,
-.MountainBike  {
+.MountainBike{
     width:auto;
 	height:700px;
 	
@@ -258,7 +258,7 @@ padding-left:20px;
 	  width:50%;
   }
   .simpl-btn{
-	    margin-left:50px;
+	    margin-left:55px;
  }
  
  .Reso{
@@ -291,9 +291,10 @@ padding-left:20px;
 	  margin-left:85px;
 	  width:50%;
   }
-  .simpl-btn{
-	    margin-left:50px;
+   .simpl-btn{
+	    margin-left:55px;
  }
+ 
  .Reso{
 	margin-left:auto;
 	
@@ -323,8 +324,9 @@ padding-left:20px;
 	  width:50%;
   }
   .simpl-btn{
-	    margin-left:50px;
+	    margin-left:55px;
  }
+ 
  
  .Reso{
 	margin-left:auto;
@@ -355,9 +357,10 @@ padding-left:20px;
 	  margin-left:85px;
 	  width:50%;
   }
- .simpl-btn{
-	    margin-left:50px;
+  .simpl-btn{
+	    margin-left:55px;
  }
+ 
  
  .Reso{
 	margin-left:auto;
@@ -388,8 +391,9 @@ padding-left:20px;
 	  width:50%;
   }
  .simpl-btn{
-	    margin-left:50px;
+	    margin-left:55px;
  }
+ 
  
  .Reso{
 	margin-left:auto;
