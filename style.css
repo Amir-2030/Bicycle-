@@ -272,6 +272,7 @@ padding-left:20px;
 }
 
 @media only screen and (max-width: 639px) {
+ .MountainBike,
   .KidsBike,
 .BmxBike,
 .RoadBike
@@ -279,10 +280,6 @@ padding-left:20px;
     width:auto;
 	height:700px;
 	
-  }
-  .MountainBike  {
-	  height:900px;
-	  
   }
   .card-01{
 	width:auto;; 
@@ -309,6 +306,7 @@ padding-left:20px;
 }
 
 @media only screen and (max-width: 479px) {
+ .MountainBike,
   .KidsBike,
 .BmxBike,
 .RoadBike
@@ -316,10 +314,6 @@ padding-left:20px;
     width:auto;
 	height:700px;
 	
-  }
-  .MountainBike  {
-	  height:900px;
-	  
   }
   .card-01{
 	width:auto;; 
@@ -349,6 +343,7 @@ display:block;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+  .MountainBike,
   .KidsBike,
 .BmxBike,
 .RoadBike
@@ -356,10 +351,6 @@ display:block;
     width:auto;
 	height:700px;
 	
-  }
-  .MountainBike  {
-	  height:900px;
-	  
   }
   .card-01{
 	width:auto;; 
@@ -387,17 +378,14 @@ display:block;
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
-   .KidsBike,
+   .MountainBike,
+  .KidsBike,
 .BmxBike,
 .RoadBike
 {
     width:auto;
 	height:700px;
 	
-  }
-  .MountainBike  {
-	  height:900px;
-	  
   }
   .card-01{
 	width:auto;; 
