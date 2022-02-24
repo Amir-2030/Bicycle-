@@ -260,6 +260,7 @@ padding-left:20px;
   }
   .simpl-btn{
 	    margin-left:55px;
+		display:block;
  }
  
  .Reso{
@@ -294,6 +295,7 @@ padding-left:20px;
   }
    .simpl-btn{
 	    margin-left:55px;
+		display:block;
  }
  
  .Reso{
@@ -313,7 +315,8 @@ padding-left:20px;
   }
   .card-01{
 	width:auto;; 
-	margin-left:auto;  
+	margin-left:auto; 
+display:block;	
 	
   }
   .choose{
@@ -326,6 +329,7 @@ padding-left:20px;
   }
   .simpl-btn{
 	    margin-left:55px;
+		display:block;
  }
  
  
@@ -360,6 +364,7 @@ padding-left:20px;
   }
   .simpl-btn{
 	    margin-left:55px;
+		display:block;
  }
  
  
@@ -393,6 +398,7 @@ padding-left:20px;
   }
  .simpl-btn{
 	    margin-left:55px;
+		display:block;
  }
  
  
