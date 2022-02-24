@@ -1,0 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+body{
+ overflow-x: hidden;
+}
+.imglogo{
+width:250px;
+height:300px;
+padding-top:-25px;
+margin-top:-25px;
+
+}
+.headingText{
+margin-top:40px;
+text-align:center;
+
+
+}
+
+.headingText1{
+    margin-top:40px;
+font-size: 20px;
+text-align:center;
+    
+    }
+
+    .headingText2{
+        font-size: 18px;
+        text-align:center;
+
+
+    }
+h1{
+font-size: 65px;
+  background: -webkit-linear-gradient(#0c8ccc, #aec6d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+margin-top:-10px;
+color:#9a9a9c;
+}
+
+
+
+
+
+.choose{
+    padding-left:45px;
+font-weight: bold;}
+
+section{
+  float:left;
+  width:100%;
+  padding:30px 0; 
+  position:relative; 
+  overflow:hidden; 
+  background:#6F8D8A;
+  margin: 30px;
+  margin-top:-7px
+}
+
+section:before{
+  content:"";
+  position:absolute; 
+  width:110%; 
+  height:100%;   
+  background-color:#fff; 
+  filter: blur(10px); 
+  z-index:0; 
+  transform: scale(2);
+  -ms-transform: scale(2); 
+  -webkit-transform: scale(2);
+}
+
+.card{
+  box-shadow:2px 2px 20px rgba(0,0,0,0.3);
+  border:none; 
+  margin-bottom:30px;
+ height:auto;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: all 1s ease;
+  z-index: 999;
+}
+.card-01 .card-body{
+  position:relative; 
+  padding-top:40px; 
+}
+.card-01 .badge-box{
+  position:absolute; 
+  top:-20px; 
+  left:50%;
+  width:100px; 
+  height:100px;
+  margin-left:-50px; 
+  text-align:center; 
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+  /* End Home Cards */
+
+
+
+  
+
+/* Start Calc*/
+  .ImgCalc{
+padding-top:60px;
+padding-left:20px;
+    height:250px;
+    width: 400px;
+  }
+
+
+
+  .KidsBike,
+  .BmxBike
+  {
+      height: 330px;
+     
+  }
+
+  
+  .MBike,
+  .RoadBike{
+    height: 430px;
+
+  }
+.select-dropdown,
+.select-dropdown * {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:80%;
+    height: 60%;
+    
+}
+.select-dropdown {
+	position: relative;
+    background-color:white;
+	border-radius: 4px;
+    border: 2px solid #aaa;
+    
+    
+    
+}
+.select-dropdown select {
+	font-size: 1rem;
+	font-weight: normal;
+	max-width: 100%;
+	padding: 8px 24px 8px 10px;
+	border: none;
+	background-color: transparent;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	appearance: none;
+    width:105%;
+   
+    
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+	outline: none;
+	box-shadow: none;
+}
+.select-dropdown:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	width: 0;
+	height: 0;
+	margin-top: -2px;
+	border-top: 5px solid #aaa;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+ .btncalc{
+    width:50%;
+    height: 20%;
+    display: inline-block;
+
+}
+/* Start Calc*/
+
+
+
+.simpl-btn{
+    text-align: center;
+    margin-right: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+.c1{
+    border: 2px solid black;
+}
+
+.Reso,
+.Reso1,
+.Reso2{
+    width: 90%;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin: 10px;
+    
+  
+}
+.Reso{
+ 
+    margin-left:150px;
+}
+.ResoSec{
+    float:center;
+  width:90%;
+ padding-left: 60px;
+  position:relative; 
+  overflow:hidden; 
+  background:#6F8D8A;
+ 
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .KidsBike,
+.BmxBike,
+.RoadBike,
+.MountainBike  {
+    width:auto;
+	height:700px;
+	
+  }
+  .card-01{
+	width:auto;; 
+	margin-left:auto;  
+	
+  }
+  .choose{
+	margin-left:auto;  
+  }
+  .select-dropdown{
+	 padding-left:45px;
+	  margin-left:85px;
+	  width:50%;
+  }
+ form{
+	    margin-left:50px;
+ }
+ 
+ .Reso{
+	margin-left:auto;
+	
+ }
+ 
+
+}
+
+@media only screen and (max-width: 639px) {
+.KidsBike,
+.BmxBike,
+.RoadBike,
+.MountainBike  {
+    width:auto;
+	height:700px;
+	
+  }
+  .card-01{
+	width:auto;; 
+	margin-left:auto;  
+	
+  }
+  .choose{
+	margin-left:auto;  
+  }
+  .select-dropdown{
+	 padding-left:45px;
+	  margin-left:85px;
+	  width:50%;
+  }
+ form{
+	    margin-left:50px;
+ }
+ 
+ .Reso{
+	margin-left:auto;
+	
+ }
+}
+
+@media only screen and (max-width: 479px) {
+  .KidsBike,
+.BmxBike,
+.RoadBike,
+.MountainBike  {
+    width:auto;
+	height:700px;
+	
+  }
+  .card-01{
+	width:auto;; 
+	margin-left:auto;  
+	
+  }
+  .choose{
+	margin-left:auto;  
+  }
+  .select-dropdown{
+	 padding-left:45px;
+	  margin-left:85px;
+	  width:50%;
+  }
+ form{
+	    margin-left:50px;
+ }
+ 
+ .Reso{
+	margin-left:auto;
+	
+ }
+  
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+.KidsBike,
+.BmxBike,
+.RoadBike,
+.MountainBike  {
+    width:auto;
+	height:700px;
+	
+  }
+  .card-01{
+	width:auto;; 
+	margin-left:auto;  
+	
+  }
+  .choose{
+	margin-left:auto;  
+  }
+  .select-dropdown{
+	 padding-left:45px;
+	  margin-left:85px;
+	  width:50%;
+  }
+ form{
+	    margin-left:50px;
+ }
+ 
+ .Reso{
+	margin-left:auto;
+	
+ }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+ .KidsBike,
+.BmxBike,
+.RoadBike,
+.MountainBike  {
+    width:auto;
+	height:700px;
+	
+  }
+  .card-01{
+	width:auto;; 
+	margin-left:auto;  
+	
+  }
+  .choose{
+	margin-left:auto;  
+  }
+  .select-dropdown{
+	 padding-left:45px;
+	  margin-left:85px;
+	  width:50%;
+  }
+ form{
+	    margin-left:50px;
+ }
+ 
+ .Reso{
+	margin-left:auto;
+	
+ }
+
+
+}
