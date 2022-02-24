@@ -236,10 +236,11 @@ padding-left:20px;
 
 
 @media only screen and (max-width: 767px) {
+  .MountainBike,
   .KidsBike,
 .BmxBike,
-.RoadBike,
-.MountainBike{
+.RoadBike
+{
     width:auto;
 	height:700px;
 	
